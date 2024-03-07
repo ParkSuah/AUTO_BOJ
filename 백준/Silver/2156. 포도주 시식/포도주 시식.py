@@ -14,3 +14,5 @@ for i in range(cnt+1):
     else:
         dp[i] = max(dp[i-3]+wine[i-2]+wine[i-1], dp[i-2]+wine[i-1], dp[i-1])
 print(dp[cnt])
+
+## 최소 케이스에서 출력을 또 해버리는 실수 때문에 이틀 날려먹음 ㅁㅊ ; 
